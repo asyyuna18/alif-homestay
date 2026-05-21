@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80" fill="none">
+  <rect width="240" height="80" rx="12" fill="#0F5B4E"/>
+  <circle cx="40" cy="40" r="20" fill="#E9F6F3"/>
+  <path d="M31 30h18v6H43v22h-6V36h-6v-6z" fill="#0F5B4E"/>
+  <path d="M56 26h10c10 0 16 6 16 15 0 10-7 17-18 17h-4v12h-4V26zm10 28c8 0 12-5 12-12 0-7-4-12-12-12h-6v24h6z" fill="#E9F6F3"/>
+  <text x="96" y="35" fill="#E9F6F3" font-family="Arial, sans-serif" font-size="18" font-weight="700">ToyyibPay</text>
+  <text x="96" y="56" fill="#BCE3DA" font-family="Arial, sans-serif" font-size="11">FPX and DuitNow payment gateway</text>
+</svg>

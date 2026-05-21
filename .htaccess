@@ -1,0 +1,11 @@
+RewriteEngine on
+
+# Redirect Trailing Slashes If Not A Folder...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [L,R=301]
+
+# In XAMPP subfolder installs, redirect requests to /public so Laravel
+# receives the correct path and theme assets resolve consistently.
+RewriteCond %{REQUEST_URI} !^/DES3073/public/
+RewriteRule ^(.*)$ /DES3073/public/$1 [R=302,L]

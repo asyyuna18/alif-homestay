@@ -1,0 +1,14 @@
+{
+    "id": "botble/toyyibpay",
+    "name": "ToyyibPay Payment Gateway",
+    "namespace": "Botble\\ToyyibPay\\",
+    "provider": "Botble\\ToyyibPay\\Providers\\ToyyibPayServiceProvider",
+    "author": "OpenAI",
+    "url": "https://toyyibpay.com",
+    "version": "1.0.0",
+    "description": "ToyyibPay payment gateway integration",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "botble/payment"
+    ]
+}
